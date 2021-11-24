@@ -16,6 +16,8 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "drupal/bootstrap": "^3.23",
+        "drupal/bootstrap_barrio": "^5.5",
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-project-message": "^9.2",
         "drupal/core-recommended": "^9.2"
@@ -84,5 +86,8 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
+    },
+    "require-dev": {
+        "drush/drush": "^10.6"
     }
 }
