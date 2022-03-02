@@ -1,0 +1,3 @@
+[submodule "hashtags"]
+	path = hashtags
+	url = /home/vish/dev/web/php/drupal/9/web/modules/contrib/hashtags
