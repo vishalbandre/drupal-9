@@ -1,0 +1,42 @@
+name: retro
+type: theme
+description: "My Awesome theme"
+package: Custom
+core_version_requirement: ^8 || ^9
+
+# base theme: bartik
+base theme: classy
+
+# Region metadata.
+regions:
+  header: "Header"
+  primary_menu: "Primary menu"
+  secondary_menu: "Secondary menu"
+  page_top: "Page top"
+  page_bottom: "Page bottom"
+  highlighted: "Highlighted"
+  featured_top: "Featured top"
+  breadcrumb: "Breadcrumb"
+  content: "Content"
+  sidebar_first: "Sidebar first"
+  sidebar_second: "Sidebar second"
+  footer_first: "Footer first"
+  footer_second: "Footer second"
+
+libraries-override:
+  system/base:
+    css:
+      component:
+        /core/themes/stable/css/system/components/ajax-progress.module.css: css/ajax-progress.overridden.css
+
+# libraries-override:
+#   bartik:
+#     css:
+#       component:
+#         /core/themes/classy/css/components/menu.css: false
+
+libraries:
+  - retro/global
+  - retro/bootstrap
+  - retro/rainbow
+  - retro/retro

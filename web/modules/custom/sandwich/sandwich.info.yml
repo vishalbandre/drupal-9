@@ -1,0 +1,5 @@
+name: Sandwich
+type: module
+description: Plugin API Testing
+package: Custom
+core_version_requirement: ^8 || ^9

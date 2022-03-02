@@ -1,0 +1,33 @@
+bootstrap:
+  css:
+    theme:
+      css/bootstrap.min.css: {}
+  
+  js:
+    js/bootstrap.min.js: {}
+
+rainbow:
+  version: 1.0
+  remote: https://github.com/xoxco/rainbow-text
+  license: MIT
+  js:
+    js/rainbow.js: { }
+  dependencies:
+    core/jquery: {}
+
+retro:
+  version: 1.0
+  css:
+    theme:
+      css/fonts.css: { weight: 10 }
+
+  js:
+    js/rainbow-headings.js: { }
+  dependencies:
+    - retro/rainbow
+
+global:
+  css:
+    theme:
+      css/global.css: {}
+      #css/components/block.css: true
